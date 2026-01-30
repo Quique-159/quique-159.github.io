@@ -153,3 +153,25 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+.skills {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.skills li::before {
+  content: "✔";
+  color: #2563eb;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+
+
