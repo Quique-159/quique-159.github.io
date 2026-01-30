@@ -3,39 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <title>Enrique Alonso Rico Páramo | Data Analyst</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+    }
+
+    h1, h2, h3 {
+      color: #111;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      margin-top: 50px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      margin-top: 35px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .subtitle {
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .project {
+      margin-top: 40px;
+      padding: 25px;
+      border-radius: 10px;
+      background-color: #fafafa;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .tools {
+      font-style: italic;
+      color: #444;
+    }
+
+    .project-images {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .project-images img {
+      width: 100%;
+      max-width: 460px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .impact {
+      margin-top: 20px;
+      padding-left: 15px;
+      border-left: 4px solid #333;
+      background-color: #f3f3f3;
+      font-weight: bold;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
+  </style>
 </head>
+
 <body>
 
   <!-- Header -->
   <h1>Hola, soy Enrique Alonso 👋</h1>
-  <p>Ingeniero Industrial en transición a Data / BI.</p>
+  <p class="subtitle">Ingeniero Industrial en transición a Data / BI</p>
 
   <!-- Acerca de mí -->
-  <h2>Acerca de mí</h2>
+  <h2>👤 Acerca de mí</h2>
   <p>
-    Data Analyst junior con formación en Ingeniería Industrial y experiencia en operaciones de logística y e-commerce. 
-    Trabajo con Python (Pandas, NumPy, Matplotlib), SQL y procesos de ETL para analizar procesos de negocio, construir métricas accionables y apoyar la mejora continua. 
-    Mi enfoque combina conocimiento operativo de última milla con análisis de datos aplicado a casos reales.
+    Data Analyst junior con formación en Ingeniería Industrial y experiencia en operaciones
+    de logística y e-commerce. Trabajo con Python, SQL y procesos de ETL para analizar procesos
+    de negocio, construir métricas accionables y apoyar la mejora continua.
   </p>
 
   <!-- Habilidades -->
-  <h2>Habilidades</h2>
+  <h2>🧠 Habilidades</h2>
 
-  <h3>Habilidades tecnológicas</h3>
+  <h3>🛠️ Habilidades tecnológicas</h3>
   <ul>
-    <li>Análisis y gestión de datos: Python / SQL / Excel</li>
-    <li>Visualización de datos: Tableau / Looker studio / Power BI</li>
+    <li>Python (Pandas, NumPy, Matplotlib)</li>
+    <li>SQL</li>
+    <li>Excel</li>
+    <li>Tableau · Looker Studio · Power BI</li>
   </ul>
 
-  <h3>Habilidades blandas</h3>
+  <h3>🤝 Habilidades blandas</h3>
   <ul>
     <li>Análisis de datos</li>
     <li>Resolución de problemas</li>
     <li>Comunicación efectiva</li>
     <li>Trabajo en equipo</li>
-    <li>Orientación a resultados</li>
-    <li>Organización y proactividad</li>
-    <li>Atención al detalle</li>
     <li>Optimización de procesos</li>
   </ul>
 
@@ -43,97 +122,91 @@
   <h2>📊 Proyectos seleccionados</h2>
 
   <!-- Proyecto 1 -->
-  <h3>Análisis de embudo y experimento A/A/B en app de e-commerce</h3>
+  <section class="project">
+    <h3>🧪 Análisis de embudo y experimento A/A/B en app de e-commerce</h3>
 
-  <p>
-  Análisis del comportamiento de usuarios en una aplicación de venta de productos
-  alimenticios, con el objetivo de identificar puntos de fricción en el embudo de
-  conversión y evaluar el impacto de un cambio de diseño mediante un experimento A/A/B.
-  </p>
+    <p>
+      Análisis del comportamiento de usuarios en una aplicación de venta de productos
+      alimenticios para identificar fricciones en el embudo de conversión y evaluar
+      un cambio de diseño mediante un experimento A/A/B.
+    </p>
 
-  <h4>Herramientas</h4>
-  <p>
-  Python (Pandas, NumPy, Matplotlib, SciPy) · SQL · Análisis de embudos ·
-  Experimentación A/A/B · Pruebas estadísticas
-  </p>
+    <p class="tools">
+      🛠️ Herramientas: Python · SQL · Análisis de embudos · Pruebas estadísticas
+    </p>
 
-  <h4>Hallazgos clave</h4>
-  <ul>
-    <li>El embudo sigue la secuencia: Pantalla principal → Ofertas → Carrito → Pago.</li>
-    <li>La menor conversión ocurre de Carrito a Pago (26.87%), con una pérdida del 73.13% de usuarios.</li>
-    <li>La conversión total del embudo es de 5.93%, evidenciando oportunidades de mejora.</li>
-    <li>Los usuarios que completan el tutorial muestran mejores tasas de conversión en todas las etapas.</li>
-  </ul>
+    <h4>📌 Hallazgos clave</h4>
+    <ul>
+      <li>Embudo: Principal → Ofertas → Carrito → Pago.</li>
+      <li>Mayor abandono en Carrito → Pago (73.13%).</li>
+      <li>Conversión total: 5.93%.</li>
+      <li>Usuarios con tutorial convierten mejor.</li>
+    </ul>
 
-  <h4>Resultados del experimento</h4>
-  <ul>
-    <li>Los grupos de control (A/A) son estadísticamente equivalentes, validando el experimento.</li>
-    <li>No se encontraron diferencias significativas entre el grupo experimental y los controles.</li>
-    <li>El cambio de tipografía no generó mejoras medibles en la conversión.</li>
-  </ul>
+    <h4>🧪 Resultados del experimento</h4>
+    <ul>
+      <li>Grupos A/A estadísticamente equivalentes.</li>
+      <li>No hubo mejoras significativas.</li>
+    </ul>
 
-  <h4>Recomendaciones</h4>
-  <ul>
-    <li>Optimizar la etapa Carrito → Pago para reducir el abandono.</li>
-    <li>Incrementar la visibilidad y uso del tutorial, dado su impacto positivo en la conversión.</li>
-    <li>Detener el experimento de tipografías al no mostrar beneficios.</li>
-  </ul>
+    <div class="project-images">
+      <img src="images/funnel_conversion.png" alt="Embudo de conversión">
+      <img src="images/experiment_results.png" alt="Resultados A/B">
+    </div>
 
-  <h4>Visualizaciones destacadas</h4>
-  <p>
-    Escribe aquí qué gráficos o dashboards destacan
-    (o agrega imágenes más adelante).
-  </p>
+    <p class="impact">
+      💡 Impacto: Se recomienda optimizar Carrito → Pago y potenciar el tutorial.
+    </p>
+  </section>
 
   <!-- Proyecto 2 -->
-  <h3>Análisis de rentabilidad de marketing y LTV en plataforma de venta de entradas</h3>
+  <section class="project">
+    <h3>📈 Análisis de rentabilidad de marketing y LTV</h3>
 
-  <p>
-  Análisis del comportamiento de usuarios y la eficiencia del gasto en marketing
-  para una plataforma de venta de entradas a eventos, con el objetivo de optimizar
-  la inversión publicitaria y maximizar el valor del cliente a lo largo del tiempo (LTV).
-  </p>
+    <p>
+      Evaluación del comportamiento de usuarios y eficiencia del gasto en marketing
+      para maximizar el valor del cliente.
+    </p>
 
-  <h4>Herramientas</h4>
-  <p>
-  Python (Pandas, NumPy, Matplotlib, Seaborn) · SQL · Análisis de cohortes ·
-  LTV(Lifetime Value) · CAC (Customer Acquisition Cost) · ROMI (Return on Marketing Investment) · Visualización de datos
-  </p>
+    <p class="tools">
+      🛠️ Herramientas: Python · SQL · Cohortes · LTV · CAC · ROMI
+    </p>
 
-  <h4>Hallazgos clave</h4>
-  <ul>
-    <li>La mayoría de los usuarios no son recurrentes y realizan una sola visita al sitio.</li>
-    <li>El 69% de las compras se realizan el mismo día de la primera visita.</li>
-    <li>El uso del servicio es predominantemente desde desktop, siendo el dispositivo más efectivo.</li>
-    <li>El LTV muestra una tendencia descendente a lo largo del tiempo, indicando baja retención.</li>
-    <li>Las cohortes de junio y septiembre de 2017 presentaron mayor valor acumulado.</li>
-  </ul>
+    <h4>📌 Hallazgos clave</h4>
+    <ul>
+      <li>Usuarios no recurrentes.</li>
+      <li>69% compra el primer día.</li>
+      <li>Desktop es el canal más efectivo.</li>
+      <li>LTV decreciente.</li>
+    </ul>
 
-  <h4>Análisis de marketing</h4>
-  <ul>
-    <li>Las fuentes 3, 4 y 5 concentran el mayor gasto publicitario, siendo la fuente 3 la más costosa.</li>
-    <li>La fuente 9 presenta el menor CAC y una mejor eficiencia en adquisición.</li>
-    <li>Las fuentes 1 y 2 resultan rentables en el corto plazo (ROMI positivo).</li>
-    <li>El análisis LTV/CAC muestra mejor desempeño a largo plazo en las fuentes 9, 10 y 4.</li>
-  </ul>
+    <h4>📊 Marketing & rentabilidad</h4>
+    <ul>
+      <li>Fuente 3: mayor costo, bajo rendimiento.</li>
+      <li>Fuente 9: menor CAC.</li>
+      <li>Mejor LTV/CAC: 9, 10 y 4.</li>
+    </ul>
 
-  <h4>Recomendaciones</h4>
-  <ul>
-    <li>Reducir o replantear la inversión en la fuente 3 por su bajo desempeño.</li>
-    <li>Priorizar las fuentes 9, 10 y 4 para estrategias de retención y crecimiento sostenido.</li>
-    <li>Utilizar las fuentes 1 y 2 para campañas de impacto a corto plazo.</li>
-    <li>Alinear la estrategia de marketing con los objetivos del negocio (corto vs largo plazo).</li>
-  </ul>
+    <div class="project-images">
+      <img src="images/ltv_cohortes.png" alt="LTV por cohortes">
+      <img src="images/romi_sources.png" alt="ROMI por fuente">
+    </div>
+
+    <p class="impact">
+      💡 Impacto: Ajustar inversión según objetivos de corto y largo plazo.
+    </p>
+  </section>
 
   <!-- Contacto -->
   <h2>📫 Contacto</h2>
-  <p>📞 464-100-09-70</p>
-  <p>
-    <a href="https://www.linkedin.com/in/alonso-rico" target="_blank">
-      LinkedIn
-    </a>
-  </p>
+  <div class="contact">
+    <p>📞 464-100-09-70</p>
+    <p>
+      <a href="https://www.linkedin.com/in/alonso-rico" target="_blank">
+        🔗 LinkedIn
+      </a>
+    </p>
+  </div>
 
 </body>
 </html>
-
