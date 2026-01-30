@@ -58,26 +58,27 @@ body {
 
 /* ===== VIÑETAS PERSONALIZADAS SOLO PARA SKILLS ===== */
 .skills {
-  list-style: none; /* quitamos viñeta default */
+  list-style: none;
   padding-left: 0;
 }
 
 .skills li {
-  position: relative;
-  padding-left: 22px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
   margin-bottom: 8px;
-  color: #333;
   font-size: 0.95rem;
+  color: #333;
 }
 
 .skills li::before {
-  content: "▹";          /* icono */
-  position: absolute;
-  left: 0;
-  color: #2563eb;        /* azul elegante */
-  font-size: 1rem;
-  line-height: 1;
+  content: "✔";
+  color: #2563eb;
+  font-size: 0.85rem;
+  margin-top: 2px;
 }
+
+
 
 /* ===== PROYECTOS ===== */
 .project-card {
