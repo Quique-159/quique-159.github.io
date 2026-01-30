@@ -3,210 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <title>Enrique Alonso Rico Páramo | Data Analyst</title>
-
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #222;
-    }
-
-    h1, h2, h3 {
-      color: #111;
-    }
-
-    h1 {
-      margin-bottom: 5px;
-    }
-
-    h2 {
-      margin-top: 50px;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 5px;
-    }
-
-    h3 {
-      margin-top: 35px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    .subtitle {
-      color: #555;
-      margin-bottom: 30px;
-    }
-
-    .project {
-      margin-top: 40px;
-      padding: 25px;
-      border-radius: 10px;
-      background-color: #fafafa;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    }
-
-    .tools {
-      font-style: italic;
-      color: #444;
-    }
-
-    .project-images {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-top: 20px;
-    }
-
-    .project-images img {
-      width: 100%;
-      max-width: 460px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    .impact {
-      margin-top: 20px;
-      padding-left: 15px;
-      border-left: 4px solid #333;
-      background-color: #f3f3f3;
-      font-weight: bold;
-    }
-
-    .contact a {
-      text-decoration: none;
-      color: #0066cc;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- Header -->
-  <h1>Hola, soy Enrique Alonso 👋</h1>
-  <p class="subtitle">Ingeniero Industrial en transición a Data / BI</p>
+  <main class="container">
 
-  <!-- Acerca de mí -->
-  <h2>👤 Acerca de mí</h2>
-  <p>
-    Data Analyst junior con formación en Ingeniería Industrial y experiencia en operaciones
-    de logística y e-commerce. Trabajo con Python, SQL y procesos de ETL para analizar procesos
-    de negocio, construir métricas accionables y apoyar la mejora continua.
-  </p>
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Hola, soy Enrique Alonso 👋</h1>
+      <p class="subtitle">Ingeniero Industrial en transición a Data / BI</p>
+    </section>
 
-  <!-- Habilidades -->
-  <h2>🧠 Habilidades</h2>
+    <!-- ACERCA DE MI -->
+    <section class="section">
+      <h2>👤 Acerca de mí</h2>
+      <p>
+        Data Analyst junior con formación en Ingeniería Industrial y experiencia en operaciones
+        de logística y e-commerce. Trabajo con Python, SQL y procesos de ETL para analizar procesos
+        de negocio, construir métricas accionables y apoyar la mejora continua, combinando
+        experiencia operativa con análisis de datos aplicado.
+      </p>
+    </section>
 
-  <h3>🛠️ Habilidades tecnológicas</h3>
-  <ul>
-    <li>Python (Pandas, NumPy, Matplotlib)</li>
-    <li>SQL</li>
-    <li>Excel</li>
-    <li>Tableau · Looker Studio · Power BI</li>
-  </ul>
+    <!-- HABILIDADES -->
+    <section class="section">
+      <h2>🧠 Habilidades</h2>
 
-  <h3>🤝 Habilidades blandas</h3>
-  <ul>
-    <li>Análisis de datos</li>
-    <li>Resolución de problemas</li>
-    <li>Comunicación efectiva</li>
-    <li>Trabajo en equipo</li>
-    <li>Optimización de procesos</li>
-  </ul>
+      <h3>🛠️ Tecnológicas</h3>
+      <ul class="skills">
+        <li>Python (Pandas, NumPy, Matplotlib)</li>
+        <li>SQL</li>
+        <li>Excel</li>
+        <li>Tableau · Looker Studio · Power BI</li>
+      </ul>
 
-  <!-- Proyectos -->
-  <h2>📊 Proyectos seleccionados</h2>
+      <h3>🤝 Blandas</h3>
+      <ul class="skills">
+        <li>Análisis de datos</li>
+        <li>Resolución de problemas</li>
+        <li>Comunicación efectiva</li>
+        <li>Trabajo en equipo</li>
+        <li>Orientación a resultados</li>
+        <li>Optimización de procesos</li>
+      </ul>
+    </section>
 
-  <!-- Proyecto 1 -->
-  <section class="project">
-    <h3>🧪 Análisis de embudo y experimento A/A/B en app de e-commerce</h3>
+    <!-- PROYECTOS -->
+    <section class="section">
+      <h2>📊 Proyectos seleccionados</h2>
 
-    <p>
-      Análisis del comportamiento de usuarios en una aplicación de venta de productos
-      alimenticios para identificar fricciones en el embudo de conversión y evaluar
-      un cambio de diseño mediante un experimento A/A/B.
-    </p>
+      <!-- Proyecto 1 -->
+      <div class="project-card">
+        <h3>Análisis de embudo y experimento A/A/B en app de e-commerce</h3>
+        <p class="project-desc">
+          Análisis del comportamiento de usuarios en una aplicación de venta de productos
+          alimenticios para identificar cuellos de botella en el embudo de conversión y evaluar
+          cambios de diseño mediante un experimento A/A/B.
+        </p>
 
-    <p class="tools">
-      🛠️ Herramientas: Python · SQL · Análisis de embudos · Pruebas estadísticas
-    </p>
+        <p><strong>🔧 Herramientas:</strong> Python, SQL, análisis de embudos, pruebas estadísticas</p>
 
-    <h4>📌 Hallazgos clave</h4>
-    <ul>
-      <li>Embudo: Principal → Ofertas → Carrito → Pago.</li>
-      <li>Mayor abandono en Carrito → Pago (73.13%).</li>
-      <li>Conversión total: 5.93%.</li>
-      <li>Usuarios con tutorial convierten mejor.</li>
-    </ul>
+        <ul>
+          <li>Conversión total del embudo: <strong>5.93%</strong></li>
+          <li>Mayor abandono: Carrito → Pago (<strong>-73%</strong>)</li>
+          <li>Usuarios que completan el tutorial convierten mejor</li>
+          <li>El cambio de tipografía no mostró impacto significativo</li>
+        </ul>
 
-    <h4>🧪 Resultados del experimento</h4>
-    <ul>
-      <li>Grupos A/A estadísticamente equivalentes.</li>
-      <li>No hubo mejoras significativas.</li>
-    </ul>
+        <p class="impact">
+          📌 <strong>Impacto:</strong> Se recomienda optimizar la etapa de pago y fomentar el uso del tutorial.
+        </p>
+      </div>
 
-    <div class="project-images">
-      <img src="images/funnel_conversion.png" alt="Embudo de conversión">
-      <img src="images/experiment_results.png" alt="Resultados A/B">
-    </div>
+      <!-- Proyecto 2 -->
+      <div class="project-card">
+        <h3>Análisis de rentabilidad de marketing y LTV en plataforma de eventos</h3>
+        <p class="project-desc">
+          Evaluación del comportamiento de clientes y eficiencia del gasto en marketing para
+          optimizar la inversión publicitaria y maximizar el valor del cliente (LTV).
+        </p>
 
-    <p class="impact">
-      💡 Impacto: Se recomienda optimizar Carrito → Pago y potenciar el tutorial.
-    </p>
-  </section>
+        <p><strong>🔧 Herramientas:</strong> Python, SQL, análisis de cohortes, LTV, CAC, ROMI</p>
 
-  <!-- Proyecto 2 -->
-  <section class="project">
-    <h3>📈 Análisis de rentabilidad de marketing y LTV</h3>
+        <ul>
+          <li>69% de las compras ocurren el primer día</li>
+          <li>Baja recurrencia de usuarios</li>
+          <li>Mejor desempeño LTV/CAC: fuentes 9, 10 y 4</li>
+          <li>Fuente 3: mayor costo y menor eficiencia</li>
+        </ul>
 
-    <p>
-      Evaluación del comportamiento de usuarios y eficiencia del gasto en marketing
-      para maximizar el valor del cliente.
-    </p>
+        <p class="impact">
+          📌 <strong>Impacto:</strong> Priorizar fuentes rentables a largo plazo y ajustar campañas por objetivo.
+        </p>
+      </div>
 
-    <p class="tools">
-      🛠️ Herramientas: Python · SQL · Cohortes · LTV · CAC · ROMI
-    </p>
+    </section>
 
-    <h4>📌 Hallazgos clave</h4>
-    <ul>
-      <li>Usuarios no recurrentes.</li>
-      <li>69% compra el primer día.</li>
-      <li>Desktop es el canal más efectivo.</li>
-      <li>LTV decreciente.</li>
-    </ul>
+    <!-- CONTACTO -->
+    <section class="section">
+      <h2>📫 Contacto</h2>
+      <p>📞 464-100-09-70</p>
+      <p>
+        🔗 <a href="https://www.linkedin.com/in/alonso-rico" target="_blank">LinkedIn</a>
+      </p>
+    </section>
 
-    <h4>📊 Marketing & rentabilidad</h4>
-    <ul>
-      <li>Fuente 3: mayor costo, bajo rendimiento.</li>
-      <li>Fuente 9: menor CAC.</li>
-      <li>Mejor LTV/CAC: 9, 10 y 4.</li>
-    </ul>
-
-    <div class="project-images">
-      <img src="images/ltv_cohortes.png" alt="LTV por cohortes">
-      <img src="images/romi_sources.png" alt="ROMI por fuente">
-    </div>
-
-    <p class="impact">
-      💡 Impacto: Ajustar inversión según objetivos de corto y largo plazo.
-    </p>
-  </section>
-
-  <!-- Contacto -->
-  <h2>📫 Contacto</h2>
-  <div class="contact">
-    <p>📞 464-100-09-70</p>
-    <p>
-      <a href="https://www.linkedin.com/in/alonso-rico" target="_blank">
-        🔗 LinkedIn
-      </a>
-    </p>
-  </div>
+  </main>
 
 </body>
 </html>
